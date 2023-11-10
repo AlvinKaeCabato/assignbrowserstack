@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-09T15:17:20 CST" name="Default suite" finished-at="2023-11-09T15:18:01 CST" duration-ms="41493">
+    <groups>
+    </groups>
+    <test started-at="2023-11-09T15:17:20 CST" name="Default test-2" finished-at="2023-11-09T15:17:44 CST" duration-ms="24227">
+      <class name="com.browserstack.FirstTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.FirstTest@794b435f]" started-at="2023-11-09T15:17:20 CST" name="setUp" finished-at="2023-11-09T15:17:40 CST" duration-ms="19547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test()[pri:0, instance:com.browserstack.FirstTest@794b435f]" started-at="2023-11-09T15:17:40 CST" name="test" finished-at="2023-11-09T15:17:42 CST" duration-ms="2144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.FirstTest@794b435f]" started-at="2023-11-09T15:17:42 CST" name="tearDown" finished-at="2023-11-09T15:17:44 CST" duration-ms="2248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.FirstTest -->
+    </test> <!-- Default test-2 -->
+    <test started-at="2023-11-09T15:17:20 CST" name="Default test-0" finished-at="2023-11-09T15:17:51 CST" duration-ms="30801">
+      <class name="com.browserstack.FirstTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.FirstTest@5bdaf2ce]" started-at="2023-11-09T15:17:20 CST" name="setUp" finished-at="2023-11-09T15:17:46 CST" duration-ms="26331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test()[pri:0, instance:com.browserstack.FirstTest@5bdaf2ce]" started-at="2023-11-09T15:17:46 CST" name="test" finished-at="2023-11-09T15:17:48 CST" duration-ms="1796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.FirstTest@5bdaf2ce]" started-at="2023-11-09T15:17:48 CST" name="tearDown" finished-at="2023-11-09T15:17:51 CST" duration-ms="2397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.FirstTest -->
+    </test> <!-- Default test-0 -->
+    <test started-at="2023-11-09T15:17:20 CST" name="Default test-1" finished-at="2023-11-09T15:18:01 CST" duration-ms="41493">
+      <class name="com.browserstack.FirstTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.FirstTest@78dc4696]" started-at="2023-11-09T15:17:20 CST" name="setUp" finished-at="2023-11-09T15:17:56 CST" duration-ms="35707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test()[pri:0, instance:com.browserstack.FirstTest@78dc4696]" started-at="2023-11-09T15:17:56 CST" name="test" finished-at="2023-11-09T15:17:58 CST" duration-ms="1965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.FirstTest@78dc4696]" started-at="2023-11-09T15:17:58 CST" name="tearDown" finished-at="2023-11-09T15:18:01 CST" duration-ms="3456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.FirstTest -->
+    </test> <!-- Default test-1 -->
+  </suite> <!-- Default suite -->
+</testng-results>
