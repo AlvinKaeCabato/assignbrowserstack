@@ -14,6 +14,9 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
+
+import com.browserstack.AppiumTest;
+
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
@@ -26,7 +29,17 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.nativekey.AndroidKey;
 import io.appium.java_client.android.nativekey.KeyEvent;
 
-public class AppiumLaunch {
+
+public class AppiumLaunch extends AppiumTest {
+	
+	@Test
+	public void enterDevice() {
+			driver.findElement(ByAccessibilityId.accessibilityId("Preference")).click();
+			driver.pressKey(new KeyEvent(AndroidKey.BACK));
+			driver.findElement(ByAccessibilityId.accessibilityId("Views")).click();
+		}
+}
+	/*
 	public static final String AUTOMATE_USERNAME = "alvinkaecabato_Avn8dc";
 	public static final String AUTOMATE_ACCESS_KEY  = "JJPHDKxYzHu68nd6MVS7";
 	public static final String URL = "https://" + AUTOMATE_USERNAME + ":" + AUTOMATE_ACCESS_KEY + "@hub-cloud.browserstack.com/wd/hub";
@@ -56,4 +69,5 @@ public class AppiumLaunch {
 	public void quit() {
 		driver.quit();
 	}
-}
+	*/
+	

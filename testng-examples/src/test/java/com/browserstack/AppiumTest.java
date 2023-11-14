@@ -28,11 +28,15 @@ public class AppiumTest {
 
     @BeforeMethod(alwaysRun=true)
     public void setUp() throws Exception {
-    	
         MutableCapabilities capabilities = new UiAutomator2Options();
-        driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
-        
-    	/*
+		capabilities.setCapability("deviceName", "Samsung Galaxy S21");
+		capabilities.setCapability("os_version", "12.0");
+		capabilities.setCapability("Project", "API demo App automation");
+		capabilities.setCapability("build", "ANDROID");
+		capabilities.setCapability("name", "Sample Test");
+        capabilities.setCapability("app", "bs://f53d645f40081a14e4bea459fcbc68291f4291d8");
+        driver = new AndroidDriver(new URL("http://alvinkaecabato_Avn8dc:JJPHDKxYzHu68nd6MVS7@hub-cloud.browserstack.com/wd/hub"),capabilities);
+        /*
 		UiAutomator2Options options = new UiAutomator2Options();
 		
 		options.setUdid("RF8N403BDGA");
@@ -51,9 +55,6 @@ public class AppiumTest {
     }
     //----Generic
     
-	public void clickOnElement(WebElement ele) {
-		ele.click();
-	}
 	public void navigateBack() {
 		driver.pressKey(new KeyEvent(AndroidKey.BACK));
 	}
