@@ -6,6 +6,7 @@ import java.time.Duration;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.MutableCapabilities;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -23,16 +24,38 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 
 
 public class AppiumTest {
-
+	String userName = System.getenv("BROWSERSTACK_USERNAME");
+	String accessKey = System.getenv("BROWSERSTACK_ACCESS_KEY");
+	String browserstackLocal = System.getenv("BROWSERSTACK_LOCAL");
+	String buildName = System.getenv("BROWSERSTACK_BUILD_NAME");
+	String browserstackLocalIdentifier = System.getenv("BROWSERSTACK_LOCAL_IDENTIFIER");
+	String app = System.getenv("BROWSERSTACK_APP_ID");
     public AndroidDriver driver;
 
     @BeforeMethod(alwaysRun=true)
     public void setUp() throws Exception {
+    	/*
+        DesiredCapabilities caps = new DesiredCapabilities();
+        caps.setCapability("app", app);
+        caps.setCapability("device", "Samsung Galaxy S21");
+        caps.setCapability("build", buildName);
+        driver = new AndroidDriver(new URL("https://"+userName+":"+accessKey+"@hub-cloud.browserstack.com/wd/hub"), caps);
+    	*/
+    	System.out.println("HERE_-------------------------->>>: " + buildName);
+    	System.out.println("HERE_-------------------------->>>: ");System.out.println("HERE_-------------------------->>>: ");
+    	System.out.println("HERE_-------------------------->>>: ");
+    	System.out.println("HERE_-------------------------->>>: ");
+    	System.out.println("HERE_-------------------------->>>: ");
+    	System.out.println("HERE_-------------------------->>>: ");
+    	System.out.println("HERE_-------------------------->>>: ");
+    	System.out.println("HERE_-------------------------->>>: ");
+    	System.out.println("HERE_-------------------------->>>: ");
+    	
         MutableCapabilities capabilities = new UiAutomator2Options();
 		capabilities.setCapability("deviceName", "Samsung Galaxy S21");
 		capabilities.setCapability("os_version", "12.0");
 		capabilities.setCapability("Project", "API demo App automation");
-		capabilities.setCapability("build", "ANDROID");
+		capabilities.setCapability("build", buildName);
 		capabilities.setCapability("name", "Sample Test");
         capabilities.setCapability("app", "bs://f53d645f40081a14e4bea459fcbc68291f4291d8");
         driver = new AndroidDriver(new URL("http://alvinkaecabato_Avn8dc:JJPHDKxYzHu68nd6MVS7@hub-cloud.browserstack.com/wd/hub"),capabilities);
