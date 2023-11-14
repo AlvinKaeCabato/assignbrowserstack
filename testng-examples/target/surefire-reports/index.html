@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,  3 skipped,  </span>
+                    <span class="method-stats">6 methods,  6 skipped,  </span>
                   </li>
                   <li>
                     <span class="method-list-title skipped">Skipped methods</span>
@@ -104,17 +104,32 @@
                     <div class="method-list-content skipped suite-First">
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-First" title="appium.AppiumLaunch" class="method navigator-link" hash-for-method="clickOnPreference">clickOnPreference</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-First" title="com.browserstack.FirstTest" class="method navigator-link" hash-for-method="navigateTest">navigateTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-First" title="appium.AppiumLaunch" class="method navigator-link" hash-for-method="clickOnPreference">clickOnPreference</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-First" title="com.browserstack.FirstTest" class="method navigator-link" hash-for-method="navigateTest">navigateTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-First" title="appium.AppiumLaunch" class="method navigator-link" hash-for-method="clickOnPreference">clickOnPreference</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-First" title="com.browserstack.FirstTest" class="method navigator-link" hash-for-method="navigateTest">navigateTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-First" title="com.browserstack.FirstTest" class="method navigator-link" hash-for-method="testA">testA</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-First" title="com.browserstack.FirstTest" class="method navigator-link" hash-for-method="testA">testA</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-First" title="com.browserstack.FirstTest" class="method navigator-link" hash-for-method="testA">testA</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-First -->
@@ -132,144 +147,175 @@
           <div class="suite-First-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
-              <span class="class-name">appium.AppiumLaunch</span>
+              <span class="class-name">com.browserstack.FirstTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="clickOnPreference">
-                  </a> <!-- clickOnPreference -->
-                  <span class="method-name">clickOnPreference</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+                  <a name="navigateTest">
+                  </a> <!-- navigateTest -->
+                  <span class="method-name">navigateTest</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource 
 Host info: host: &apos;DESKTOP-GO5J5M6&apos;, ip: &apos;192.168.0.32&apos;
 Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {Project: API demo App automation, app: bs://f53d645f40081a14e4bea4..., appium:app: bs://f53d645f40081a14e4bea4..., browserVersion: null, bstack:options: {accessKey: JJPHDKxYzHu68nd6MVS7, browserVersion: null, browserstackSDK: testng-javaagent/1.11.10, buildIdentifier: #15, buildName: browserstack build Kae, consoleLogs: errors, debug: false, deviceName: Samsung Galaxy S22 Ultra, hostName: DESKTOP-GO5J5M6, local: true, localIdentifier: 10_Nov_1038_DESKTOP_GO5J5M6..., networkLogs: false, osVersion: 12.0, projectName: BrowserStack Samples Kae, source: testng:appium-sample-sdk:v1.1, userName: alvinkaecabato_Avn8dc}, build: ANDROID, deviceName: Samsung Galaxy S21, name: Sample Test, os_version: 12.0, platformName: ANDROID}]}]
-Capabilities {Project: API demo App automation, app: bs://f53d645f40081a14e4bea4..., appium:app: bs://f53d645f40081a14e4bea4..., browserVersion: null, bstack:options: {accessKey: JJPHDKxYzHu68nd6MVS7, browserVersion: null, browserstackSDK: testng-javaagent/1.11.10, buildIdentifier: #15, buildName: browserstack build Kae, consoleLogs: errors, debug: false, deviceName: Samsung Galaxy S22 Ultra, hostName: DESKTOP-GO5J5M6, local: true, localIdentifier: 10_Nov_1038_DESKTOP_GO5J5M6..., networkLogs: false, osVersion: 12.0, projectName: BrowserStack Samples Kae, source: testng:appium-sample-sdk:v1.1, userName: alvinkaecabato_Avn8dc}, build: ANDROID, deviceName: Samsung Galaxy S21, name: Sample Test, os_version: 12.0, platformName: ANDROID}
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{platformName=ANDROID, appium:automationName=UIAutomator2}], desiredCapabilities=Capabilities {appium:automationName: UIAutomator2, platformName: ANDROID}}]
+Capabilities {appium:automationName: UIAutomator2, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:143)
-	at appium.AppiumLaunch.setup(AppiumLaunch.java:45)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:117)
+	at com.browserstack.AppiumTest.setUp(AppiumTest.java:33)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:842)
-Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [Project, app, build, deviceName, name, os_version]
-	at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$4(NewSessionPayload.java:184)
-	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:540)
-	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:541)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:541)
-	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
-	at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:188)
-	at org.openqa.selenium.remote.NewSessionPayload.&lt;init&gt;(NewSessionPayload.java:91)
-	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:127)
-	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:111)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	... 23 more
-... Removed 15 stack frames
+... Removed 20 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="clickOnPreference">
-                  </a> <!-- clickOnPreference -->
-                  <span class="method-name">clickOnPreference</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+                  <a name="navigateTest">
+                  </a> <!-- navigateTest -->
+                  <span class="method-name">navigateTest</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource 
 Host info: host: &apos;DESKTOP-GO5J5M6&apos;, ip: &apos;192.168.0.32&apos;
 Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {Project: API demo App automation, app: bs://f53d645f40081a14e4bea4..., appium:app: bs://f53d645f40081a14e4bea4..., browserVersion: null, bstack:options: {accessKey: JJPHDKxYzHu68nd6MVS7, browserVersion: null, browserstackSDK: testng-javaagent/1.11.10, buildIdentifier: #15, buildName: browserstack build Kae, consoleLogs: errors, debug: false, deviceName: Google Pixel 6 Pro, hostName: DESKTOP-GO5J5M6, local: true, localIdentifier: 10_Nov_1038_DESKTOP_GO5J5M6..., networkLogs: false, osVersion: 12.0, projectName: BrowserStack Samples Kae, source: testng:appium-sample-sdk:v1.1, userName: alvinkaecabato_Avn8dc}, build: ANDROID, deviceName: Samsung Galaxy S21, name: Sample Test, os_version: 12.0, platformName: ANDROID}]}]
-Capabilities {Project: API demo App automation, app: bs://f53d645f40081a14e4bea4..., appium:app: bs://f53d645f40081a14e4bea4..., browserVersion: null, bstack:options: {accessKey: JJPHDKxYzHu68nd6MVS7, browserVersion: null, browserstackSDK: testng-javaagent/1.11.10, buildIdentifier: #15, buildName: browserstack build Kae, consoleLogs: errors, debug: false, deviceName: Google Pixel 6 Pro, hostName: DESKTOP-GO5J5M6, local: true, localIdentifier: 10_Nov_1038_DESKTOP_GO5J5M6..., networkLogs: false, osVersion: 12.0, projectName: BrowserStack Samples Kae, source: testng:appium-sample-sdk:v1.1, userName: alvinkaecabato_Avn8dc}, build: ANDROID, deviceName: Samsung Galaxy S21, name: Sample Test, os_version: 12.0, platformName: ANDROID}
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{platformName=ANDROID, appium:automationName=UIAutomator2}], desiredCapabilities=Capabilities {appium:automationName: UIAutomator2, platformName: ANDROID}}]
+Capabilities {appium:automationName: UIAutomator2, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:143)
-	at appium.AppiumLaunch.setup(AppiumLaunch.java:45)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:117)
+	at com.browserstack.AppiumTest.setUp(AppiumTest.java:33)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:842)
-Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [Project, app, build, deviceName, name, os_version]
-	at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$4(NewSessionPayload.java:184)
-	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:540)
-	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:541)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:541)
-	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
-	at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:188)
-	at org.openqa.selenium.remote.NewSessionPayload.&lt;init&gt;(NewSessionPayload.java:91)
-	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:127)
-	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:111)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	... 23 more
-... Removed 15 stack frames
+... Removed 20 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="clickOnPreference">
-                  </a> <!-- clickOnPreference -->
-                  <span class="method-name">clickOnPreference</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+                  <a name="navigateTest">
+                  </a> <!-- navigateTest -->
+                  <span class="method-name">navigateTest</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource 
 Host info: host: &apos;DESKTOP-GO5J5M6&apos;, ip: &apos;192.168.0.32&apos;
 Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {Project: API demo App automation, app: bs://f53d645f40081a14e4bea4..., appium:app: bs://f53d645f40081a14e4bea4..., browserVersion: null, bstack:options: {accessKey: JJPHDKxYzHu68nd6MVS7, browserVersion: null, browserstackSDK: testng-javaagent/1.11.10, buildIdentifier: #15, buildName: browserstack build Kae, consoleLogs: errors, debug: false, deviceName: Samsung Galaxy S21, hostName: DESKTOP-GO5J5M6, local: true, localIdentifier: 10_Nov_1038_DESKTOP_GO5J5M6..., networkLogs: false, osVersion: 11.0, projectName: BrowserStack Samples Kae, source: testng:appium-sample-sdk:v1.1, userName: alvinkaecabato_Avn8dc}, build: ANDROID, deviceName: Samsung Galaxy S21, name: Sample Test, os_version: 12.0, platformName: ANDROID}]}]
-Capabilities {Project: API demo App automation, app: bs://f53d645f40081a14e4bea4..., appium:app: bs://f53d645f40081a14e4bea4..., browserVersion: null, bstack:options: {accessKey: JJPHDKxYzHu68nd6MVS7, browserVersion: null, browserstackSDK: testng-javaagent/1.11.10, buildIdentifier: #15, buildName: browserstack build Kae, consoleLogs: errors, debug: false, deviceName: Samsung Galaxy S21, hostName: DESKTOP-GO5J5M6, local: true, localIdentifier: 10_Nov_1038_DESKTOP_GO5J5M6..., networkLogs: false, osVersion: 11.0, projectName: BrowserStack Samples Kae, source: testng:appium-sample-sdk:v1.1, userName: alvinkaecabato_Avn8dc}, build: ANDROID, deviceName: Samsung Galaxy S21, name: Sample Test, os_version: 12.0, platformName: ANDROID}
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{platformName=ANDROID, appium:automationName=UIAutomator2}], desiredCapabilities=Capabilities {appium:automationName: UIAutomator2, platformName: ANDROID}}]
+Capabilities {appium:automationName: UIAutomator2, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:143)
-	at appium.AppiumLaunch.setup(AppiumLaunch.java:45)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:117)
+	at com.browserstack.AppiumTest.setUp(AppiumTest.java:33)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:842)
-Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [Project, app, build, deviceName, name, os_version]
-	at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$4(NewSessionPayload.java:184)
-	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:540)
-	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:541)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:541)
-	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
-	at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:188)
-	at org.openqa.selenium.remote.NewSessionPayload.&lt;init&gt;(NewSessionPayload.java:91)
-	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:127)
-	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:111)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testA">
+                  </a> <!-- testA -->
+                  <span class="method-name">testA</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;io.appium.java_client.android.AndroidDriver.quit()&quot; because &quot;this.driver&quot; is null
+	at com.browserstack.AppiumTest.tearDown(AppiumTest.java:50)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testA">
+                  </a> <!-- testA -->
+                  <span class="method-name">testA</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource 
+Host info: host: &apos;DESKTOP-GO5J5M6&apos;, ip: &apos;192.168.0.32&apos;
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{platformName=ANDROID, appium:automationName=UIAutomator2}], desiredCapabilities=Capabilities {appium:automationName: UIAutomator2, platformName: ANDROID}}]
+Capabilities {appium:automationName: UIAutomator2, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	... 23 more
-... Removed 15 stack frames
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:117)
+	at com.browserstack.AppiumTest.setUp(AppiumTest.java:33)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testA">
+                  </a> <!-- testA -->
+                  <span class="method-name">testA</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource 
+Host info: host: &apos;DESKTOP-GO5J5M6&apos;, ip: &apos;192.168.0.32&apos;
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{platformName=ANDROID, appium:automationName=UIAutomator2}], desiredCapabilities=Capabilities {appium:automationName: UIAutomator2, platformName: ANDROID}}]
+Capabilities {appium:automationName: UIAutomator2, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:117)
+	at com.browserstack.AppiumTest.setUp(AppiumTest.java:33)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 20 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -288,19 +334,19 @@ Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c ca
   &lt;test thread-count=&quot;3&quot; parallel=&quot;classes&quot; name=&quot;FirstTest-0&quot; verbose=&quot;0&quot;&gt;
     &lt;parameter name=&quot;platform&quot; value=&quot;0&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;appium.AppiumLaunch&quot;/&gt;
+      &lt;class name=&quot;com.browserstack.FirstTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- FirstTest-0 --&gt;
   &lt;test thread-count=&quot;3&quot; parallel=&quot;classes&quot; name=&quot;FirstTest-1&quot; verbose=&quot;0&quot;&gt;
     &lt;parameter name=&quot;platform&quot; value=&quot;1&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;appium.AppiumLaunch&quot;/&gt;
+      &lt;class name=&quot;com.browserstack.FirstTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- FirstTest-1 --&gt;
   &lt;test thread-count=&quot;3&quot; parallel=&quot;classes&quot; name=&quot;FirstTest-2&quot; verbose=&quot;0&quot;&gt;
     &lt;parameter name=&quot;platform&quot; value=&quot;2&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;appium.AppiumLaunch&quot;/&gt;
+      &lt;class name=&quot;com.browserstack.FirstTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- FirstTest-2 --&gt;
 &lt;/suite&gt; &lt;!-- First --&gt;
@@ -346,24 +392,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'clickOnPreference')
-data.setCell(0, 2, 'appium.AppiumLaunch')
+data.setCell(0, 1, 'navigateTest')
+data.setCell(0, 2, 'com.browserstack.FirstTest')
 data.setCell(0, 3, 0);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'clickOnPreference')
-data.setCell(1, 2, 'appium.AppiumLaunch')
+data.setCell(1, 1, 'testA')
+data.setCell(1, 2, 'com.browserstack.FirstTest')
 data.setCell(1, 3, 0);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'clickOnPreference')
-data.setCell(2, 2, 'appium.AppiumLaunch')
+data.setCell(2, 1, 'testA')
+data.setCell(2, 2, 'com.browserstack.FirstTest')
 data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'navigateTest')
+data.setCell(3, 2, 'com.browserstack.FirstTest')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testA')
+data.setCell(4, 2, 'com.browserstack.FirstTest')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'navigateTest')
+data.setCell(5, 2, 'com.browserstack.FirstTest')
+data.setCell(5, 3, 0);
 window.suiteTableData['First']= { tableData: data, tableDiv: 'times-div-First'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-First">
               </div> <!-- times-div-First -->
             </div> <!-- times-div -->
@@ -389,49 +447,103 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">appium.AppiumLaunch</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
+              <div class="chronological-class-name">com.browserstack.FirstTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">setup</span>
+                <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="configuration-test before">
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">setup</span>
+                <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="configuration-test before">
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">setup</span>
+                <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">clickOnPreference</span>
-                <span class="method-start">801 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">quit</span>
-                <span class="method-start">846 ms</span>
-              </div> <!-- configuration-test after -->
-              <div class="test-method">
-                <span class="method-name">clickOnPreference</span>
-                <span class="method-start">3539 ms</span>
+                <span class="method-name">navigateTest</span>
+                <span class="method-start">892 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">clickOnPreference</span>
-                <span class="method-start">3539 ms</span>
+                <span class="method-name">navigateTest</span>
+                <span class="method-start">892 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">quit</span>
-                <span class="method-start">3574 ms</span>
-              </div> <!-- configuration-test after -->
-              <div class="configuration-test after">
-                <span class="method-name">quit</span>
-                <span class="method-start">3592 ms</span>
-              </div> <!-- configuration-test after -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">962 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">971 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">1004 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">1007 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testA</span>
+                <span class="method-start">1054 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testA</span>
+                <span class="method-start">1058 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1123 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1129 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">navigateTest</span>
+                <span class="method-start">2470 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2498 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">2530 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testA</span>
+                <span class="method-start">2555 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2592 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

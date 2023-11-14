@@ -4,37 +4,40 @@
   <test thread-count="9" parallel="classes" name="FirstTest-0(failed)" verbose="0">
     <parameter name="platform" value="0"/>
     <classes>
-      <class name="appium.AppiumLaunch">
+      <class name="com.browserstack.FirstTest">
         <methods>
-          <include name="clickOnPreference"/>
-          <include name="quit"/>
-          <include name="setup"/>
+          <include name="navigateTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testA"/>
         </methods>
-      </class> <!-- appium.AppiumLaunch -->
+      </class> <!-- com.browserstack.FirstTest -->
     </classes>
   </test> <!-- FirstTest-0(failed) -->
-  <test thread-count="9" parallel="classes" name="FirstTest-2(failed)" verbose="0">
-    <parameter name="platform" value="2"/>
-    <classes>
-      <class name="appium.AppiumLaunch">
-        <methods>
-          <include name="clickOnPreference"/>
-          <include name="quit"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- appium.AppiumLaunch -->
-    </classes>
-  </test> <!-- FirstTest-2(failed) -->
   <test thread-count="9" parallel="classes" name="FirstTest-1(failed)" verbose="0">
     <parameter name="platform" value="1"/>
     <classes>
-      <class name="appium.AppiumLaunch">
+      <class name="com.browserstack.FirstTest">
         <methods>
-          <include name="clickOnPreference"/>
-          <include name="quit"/>
-          <include name="setup"/>
+          <include name="navigateTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testA"/>
         </methods>
-      </class> <!-- appium.AppiumLaunch -->
+      </class> <!-- com.browserstack.FirstTest -->
     </classes>
   </test> <!-- FirstTest-1(failed) -->
+  <test thread-count="9" parallel="classes" name="FirstTest-2(failed)" verbose="0">
+    <parameter name="platform" value="2"/>
+    <classes>
+      <class name="com.browserstack.FirstTest">
+        <methods>
+          <include name="navigateTest"/>
+          <include name="tearDown"/>
+          <include name="testA"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.browserstack.FirstTest -->
+    </classes>
+  </test> <!-- FirstTest-2(failed) -->
 </suite> <!-- Failed suite [First] -->
