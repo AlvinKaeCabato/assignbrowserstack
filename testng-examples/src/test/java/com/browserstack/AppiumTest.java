@@ -28,8 +28,21 @@ public class AppiumTest {
 
     @BeforeMethod(alwaysRun=true)
     public void setUp() throws Exception {
+    	
         MutableCapabilities capabilities = new UiAutomator2Options();
         driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
+        
+    	/*
+		UiAutomator2Options options = new UiAutomator2Options();
+		
+		options.setUdid("RF8N403BDGA");
+		options.setCapability("appium:appPackage","io.appium.android.apis");
+		options.setCapability("appium:appActivity","io.appium.android.apis.ApiDemos");
+		options.setCapability("platformName", "Android");
+		options.setCapability("appium:platformVersion", "12");
+		options.setCapability("appium:automationName","uiautomator2");
+		driver = new AndroidDriver(new URL("http://127.0.0.1:4723"),options);
+		*/
     }
 
     @AfterMethod(alwaysRun=true)
@@ -38,6 +51,9 @@ public class AppiumTest {
     }
     //----Generic
     
+	public void clickOnElement(WebElement ele) {
+		ele.click();
+	}
 	public void navigateBack() {
 		driver.pressKey(new KeyEvent(AndroidKey.BACK));
 	}
@@ -128,6 +144,12 @@ public class AppiumTest {
 	public WebElement accessCustomView() {
 		return new WebDriverWait(driver, Duration.ofSeconds(30)).until(
 		          ExpectedConditions.elementToBeClickable(AppiumBy.accessibilityId("Accessibility Custom View")));
+	}
+	
+	//--------------------------------------------Views
+	public WebElement viewsWebView() {
+		return new WebDriverWait(driver, Duration.ofSeconds(30)).until(
+		          ExpectedConditions.elementToBeClickable(AppiumBy.accessibilityId("WebView")));
 	}
 	
 	//------------------------------------------Gestures

@@ -1,57 +1,453 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-09T15:55:10 CST" name="First" finished-at="2023-11-09T15:56:21 CST" duration-ms="70888">
+  <suite started-at="2023-11-10T10:39:05 CST" name="First" finished-at="2023-11-10T10:39:12 CST" duration-ms="7120">
     <groups>
     </groups>
-    <test started-at="2023-11-09T15:55:10 CST" name="FirstTest-1" finished-at="2023-11-09T15:56:02 CST" duration-ms="52007">
-      <class name="com.browserstack.FirstTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.FirstTest@55b62629]" started-at="2023-11-09T15:55:10 CST" name="setUp" finished-at="2023-11-09T15:55:29 CST" duration-ms="18696" status="PASS">
+    <test started-at="2023-11-10T10:39:05 CST" name="FirstTest-0" finished-at="2023-11-10T10:39:11 CST" duration-ms="6094">
+      <class name="appium.AppiumLaunch">
+        <test-method is-config="true" signature="setup()[pri:0, instance:appium.AppiumLaunch@4e2c95ee]" started-at="2023-11-10T10:39:05 CST" name="setup" finished-at="2023-11-10T10:39:06 CST" duration-ms="764" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-GO5J5M6', ip: '192.168.0.32'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {Project: API demo App automation, app: bs://f53d645f40081a14e4bea4..., appium:app: bs://f53d645f40081a14e4bea4..., browserVersion: null, bstack:options: {accessKey: JJPHDKxYzHu68nd6MVS7, browserVersion: null, browserstackSDK: testng-javaagent/1.11.10, buildIdentifier: #15, buildName: browserstack build Kae, consoleLogs: errors, debug: false, deviceName: Samsung Galaxy S22 Ultra, hostName: DESKTOP-GO5J5M6, local: true, localIdentifier: 10_Nov_1038_DESKTOP_GO5J5M6..., networkLogs: false, osVersion: 12.0, projectName: BrowserStack Samples Kae, source: testng:appium-sample-sdk:v1.1, userName: alvinkaecabato_Avn8dc}, build: ANDROID, deviceName: Samsung Galaxy S21, name: Sample Test, os_version: 12.0, platformName: ANDROID}]}]
+Capabilities {Project: API demo App automation, app: bs://f53d645f40081a14e4bea4..., appium:app: bs://f53d645f40081a14e4bea4..., browserVersion: null, bstack:options: {accessKey: JJPHDKxYzHu68nd6MVS7, browserVersion: null, browserstackSDK: testng-javaagent/1.11.10, buildIdentifier: #15, buildName: browserstack build Kae, consoleLogs: errors, debug: false, deviceName: Samsung Galaxy S22 Ultra, hostName: DESKTOP-GO5J5M6, local: true, localIdentifier: 10_Nov_1038_DESKTOP_GO5J5M6..., networkLogs: false, osVersion: 12.0, projectName: BrowserStack Samples Kae, source: testng:appium-sample-sdk:v1.1, userName: alvinkaecabato_Avn8dc}, build: ANDROID, deviceName: Samsung Galaxy S21, name: Sample Test, os_version: 12.0, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-GO5J5M6', ip: '192.168.0.32'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {Project: API demo App automation, app: bs://f53d645f40081a14e4bea4..., appium:app: bs://f53d645f40081a14e4bea4..., browserVersion: null, bstack:options: {accessKey: JJPHDKxYzHu68nd6MVS7, browserVersion: null, browserstackSDK: testng-javaagent/1.11.10, buildIdentifier: #15, buildName: browserstack build Kae, consoleLogs: errors, debug: false, deviceName: Samsung Galaxy S22 Ultra, hostName: DESKTOP-GO5J5M6, local: true, localIdentifier: 10_Nov_1038_DESKTOP_GO5J5M6..., networkLogs: false, osVersion: 12.0, projectName: BrowserStack Samples Kae, source: testng:appium-sample-sdk:v1.1, userName: alvinkaecabato_Avn8dc}, build: ANDROID, deviceName: Samsung Galaxy S21, name: Sample Test, os_version: 12.0, platformName: ANDROID}]}]
+Capabilities {Project: API demo App automation, app: bs://f53d645f40081a14e4bea4..., appium:app: bs://f53d645f40081a14e4bea4..., browserVersion: null, bstack:options: {accessKey: JJPHDKxYzHu68nd6MVS7, browserVersion: null, browserstackSDK: testng-javaagent/1.11.10, buildIdentifier: #15, buildName: browserstack build Kae, consoleLogs: errors, debug: false, deviceName: Samsung Galaxy S22 Ultra, hostName: DESKTOP-GO5J5M6, local: true, localIdentifier: 10_Nov_1038_DESKTOP_GO5J5M6..., networkLogs: false, osVersion: 12.0, projectName: BrowserStack Samples Kae, source: testng:appium-sample-sdk:v1.1, userName: alvinkaecabato_Avn8dc}, build: ANDROID, deviceName: Samsung Galaxy S21, name: Sample Test, os_version: 12.0, platformName: ANDROID}
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:143)
+at appium.AppiumLaunch.setup(AppiumLaunch.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [Project, app, build, deviceName, name, os_version]
+at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$4(NewSessionPayload.java:184)
+at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:540)
+at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:541)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:541)
+at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:188)
+at org.openqa.selenium.remote.NewSessionPayload.<init>(NewSessionPayload.java:91)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:127)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:111)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="test()[pri:0, instance:com.browserstack.FirstTest@55b62629]" started-at="2023-11-09T15:55:29 CST" name="test" finished-at="2023-11-09T15:55:59 CST" duration-ms="30613" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="clickOnPreference()[pri:0, instance:appium.AppiumLaunch@4e2c95ee]" started-at="2023-11-10T10:39:06 CST" name="clickOnPreference" finished-at="2023-11-10T10:39:06 CST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-GO5J5M6', ip: '192.168.0.32'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {Project: API demo App automation, app: bs://f53d645f40081a14e4bea4..., appium:app: bs://f53d645f40081a14e4bea4..., browserVersion: null, bstack:options: {accessKey: JJPHDKxYzHu68nd6MVS7, browserVersion: null, browserstackSDK: testng-javaagent/1.11.10, buildIdentifier: #15, buildName: browserstack build Kae, consoleLogs: errors, debug: false, deviceName: Samsung Galaxy S22 Ultra, hostName: DESKTOP-GO5J5M6, local: true, localIdentifier: 10_Nov_1038_DESKTOP_GO5J5M6..., networkLogs: false, osVersion: 12.0, projectName: BrowserStack Samples Kae, source: testng:appium-sample-sdk:v1.1, userName: alvinkaecabato_Avn8dc}, build: ANDROID, deviceName: Samsung Galaxy S21, name: Sample Test, os_version: 12.0, platformName: ANDROID}]}]
+Capabilities {Project: API demo App automation, app: bs://f53d645f40081a14e4bea4..., appium:app: bs://f53d645f40081a14e4bea4..., browserVersion: null, bstack:options: {accessKey: JJPHDKxYzHu68nd6MVS7, browserVersion: null, browserstackSDK: testng-javaagent/1.11.10, buildIdentifier: #15, buildName: browserstack build Kae, consoleLogs: errors, debug: false, deviceName: Samsung Galaxy S22 Ultra, hostName: DESKTOP-GO5J5M6, local: true, localIdentifier: 10_Nov_1038_DESKTOP_GO5J5M6..., networkLogs: false, osVersion: 12.0, projectName: BrowserStack Samples Kae, source: testng:appium-sample-sdk:v1.1, userName: alvinkaecabato_Avn8dc}, build: ANDROID, deviceName: Samsung Galaxy S21, name: Sample Test, os_version: 12.0, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-GO5J5M6', ip: '192.168.0.32'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {Project: API demo App automation, app: bs://f53d645f40081a14e4bea4..., appium:app: bs://f53d645f40081a14e4bea4..., browserVersion: null, bstack:options: {accessKey: JJPHDKxYzHu68nd6MVS7, browserVersion: null, browserstackSDK: testng-javaagent/1.11.10, buildIdentifier: #15, buildName: browserstack build Kae, consoleLogs: errors, debug: false, deviceName: Samsung Galaxy S22 Ultra, hostName: DESKTOP-GO5J5M6, local: true, localIdentifier: 10_Nov_1038_DESKTOP_GO5J5M6..., networkLogs: false, osVersion: 12.0, projectName: BrowserStack Samples Kae, source: testng:appium-sample-sdk:v1.1, userName: alvinkaecabato_Avn8dc}, build: ANDROID, deviceName: Samsung Galaxy S21, name: Sample Test, os_version: 12.0, platformName: ANDROID}]}]
+Capabilities {Project: API demo App automation, app: bs://f53d645f40081a14e4bea4..., appium:app: bs://f53d645f40081a14e4bea4..., browserVersion: null, bstack:options: {accessKey: JJPHDKxYzHu68nd6MVS7, browserVersion: null, browserstackSDK: testng-javaagent/1.11.10, buildIdentifier: #15, buildName: browserstack build Kae, consoleLogs: errors, debug: false, deviceName: Samsung Galaxy S22 Ultra, hostName: DESKTOP-GO5J5M6, local: true, localIdentifier: 10_Nov_1038_DESKTOP_GO5J5M6..., networkLogs: false, osVersion: 12.0, projectName: BrowserStack Samples Kae, source: testng:appium-sample-sdk:v1.1, userName: alvinkaecabato_Avn8dc}, build: ANDROID, deviceName: Samsung Galaxy S21, name: Sample Test, os_version: 12.0, platformName: ANDROID}
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:143)
+at appium.AppiumLaunch.setup(AppiumLaunch.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [Project, app, build, deviceName, name, os_version]
+at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$4(NewSessionPayload.java:184)
+at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:540)
+at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:541)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:541)
+at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:188)
+at org.openqa.selenium.remote.NewSessionPayload.<init>(NewSessionPayload.java:91)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:127)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:111)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.FirstTest@55b62629]" started-at="2023-11-09T15:56:00 CST" name="tearDown" finished-at="2023-11-09T15:56:02 CST" duration-ms="2328" status="PASS">
+        </test-method> <!-- clickOnPreference -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:appium.AppiumLaunch@4e2c95ee]" started-at="2023-11-10T10:39:06 CST" name="quit" finished-at="2023-11-10T10:39:06 CST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.browserstack.FirstTest -->
-    </test> <!-- FirstTest-1 -->
-    <test started-at="2023-11-09T15:55:10 CST" name="FirstTest-2" finished-at="2023-11-09T15:56:16 CST" duration-ms="65650">
-      <class name="com.browserstack.FirstTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.FirstTest@33a053d]" started-at="2023-11-09T15:55:10 CST" name="setUp" finished-at="2023-11-09T15:55:30 CST" duration-ms="19805" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="test()[pri:0, instance:com.browserstack.FirstTest@33a053d]" started-at="2023-11-09T15:55:30 CST" name="test" finished-at="2023-11-09T15:56:12 CST" duration-ms="42207" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.FirstTest@33a053d]" started-at="2023-11-09T15:56:13 CST" name="tearDown" finished-at="2023-11-09T15:56:16 CST" duration-ms="3258" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.browserstack.FirstTest -->
-    </test> <!-- FirstTest-2 -->
-    <test started-at="2023-11-09T15:55:10 CST" name="FirstTest-0" finished-at="2023-11-09T15:56:21 CST" duration-ms="70888">
-      <class name="com.browserstack.FirstTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.FirstTest@5fa47fea]" started-at="2023-11-09T15:55:10 CST" name="setUp" finished-at="2023-11-09T15:55:32 CST" duration-ms="21761" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="test()[pri:0, instance:com.browserstack.FirstTest@5fa47fea]" started-at="2023-11-09T15:55:32 CST" name="test" finished-at="2023-11-09T15:56:18 CST" duration-ms="46492" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.FirstTest@5fa47fea]" started-at="2023-11-09T15:56:19 CST" name="tearDown" finished-at="2023-11-09T15:56:21 CST" duration-ms="2286" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.browserstack.FirstTest -->
+        </test-method> <!-- quit -->
+      </class> <!-- appium.AppiumLaunch -->
     </test> <!-- FirstTest-0 -->
+    <test started-at="2023-11-10T10:39:05 CST" name="FirstTest-2" finished-at="2023-11-10T10:39:12 CST" duration-ms="7111">
+      <class name="appium.AppiumLaunch">
+        <test-method is-config="true" signature="setup()[pri:0, instance:appium.AppiumLaunch@5a101b1c]" started-at="2023-11-10T10:39:05 CST" name="setup" finished-at="2023-11-10T10:39:06 CST" duration-ms="764" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-GO5J5M6', ip: '192.168.0.32'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {Project: API demo App automation, app: bs://f53d645f40081a14e4bea4..., appium:app: bs://f53d645f40081a14e4bea4..., browserVersion: null, bstack:options: {accessKey: JJPHDKxYzHu68nd6MVS7, browserVersion: null, browserstackSDK: testng-javaagent/1.11.10, buildIdentifier: #15, buildName: browserstack build Kae, consoleLogs: errors, debug: false, deviceName: Google Pixel 6 Pro, hostName: DESKTOP-GO5J5M6, local: true, localIdentifier: 10_Nov_1038_DESKTOP_GO5J5M6..., networkLogs: false, osVersion: 12.0, projectName: BrowserStack Samples Kae, source: testng:appium-sample-sdk:v1.1, userName: alvinkaecabato_Avn8dc}, build: ANDROID, deviceName: Samsung Galaxy S21, name: Sample Test, os_version: 12.0, platformName: ANDROID}]}]
+Capabilities {Project: API demo App automation, app: bs://f53d645f40081a14e4bea4..., appium:app: bs://f53d645f40081a14e4bea4..., browserVersion: null, bstack:options: {accessKey: JJPHDKxYzHu68nd6MVS7, browserVersion: null, browserstackSDK: testng-javaagent/1.11.10, buildIdentifier: #15, buildName: browserstack build Kae, consoleLogs: errors, debug: false, deviceName: Google Pixel 6 Pro, hostName: DESKTOP-GO5J5M6, local: true, localIdentifier: 10_Nov_1038_DESKTOP_GO5J5M6..., networkLogs: false, osVersion: 12.0, projectName: BrowserStack Samples Kae, source: testng:appium-sample-sdk:v1.1, userName: alvinkaecabato_Avn8dc}, build: ANDROID, deviceName: Samsung Galaxy S21, name: Sample Test, os_version: 12.0, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-GO5J5M6', ip: '192.168.0.32'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {Project: API demo App automation, app: bs://f53d645f40081a14e4bea4..., appium:app: bs://f53d645f40081a14e4bea4..., browserVersion: null, bstack:options: {accessKey: JJPHDKxYzHu68nd6MVS7, browserVersion: null, browserstackSDK: testng-javaagent/1.11.10, buildIdentifier: #15, buildName: browserstack build Kae, consoleLogs: errors, debug: false, deviceName: Google Pixel 6 Pro, hostName: DESKTOP-GO5J5M6, local: true, localIdentifier: 10_Nov_1038_DESKTOP_GO5J5M6..., networkLogs: false, osVersion: 12.0, projectName: BrowserStack Samples Kae, source: testng:appium-sample-sdk:v1.1, userName: alvinkaecabato_Avn8dc}, build: ANDROID, deviceName: Samsung Galaxy S21, name: Sample Test, os_version: 12.0, platformName: ANDROID}]}]
+Capabilities {Project: API demo App automation, app: bs://f53d645f40081a14e4bea4..., appium:app: bs://f53d645f40081a14e4bea4..., browserVersion: null, bstack:options: {accessKey: JJPHDKxYzHu68nd6MVS7, browserVersion: null, browserstackSDK: testng-javaagent/1.11.10, buildIdentifier: #15, buildName: browserstack build Kae, consoleLogs: errors, debug: false, deviceName: Google Pixel 6 Pro, hostName: DESKTOP-GO5J5M6, local: true, localIdentifier: 10_Nov_1038_DESKTOP_GO5J5M6..., networkLogs: false, osVersion: 12.0, projectName: BrowserStack Samples Kae, source: testng:appium-sample-sdk:v1.1, userName: alvinkaecabato_Avn8dc}, build: ANDROID, deviceName: Samsung Galaxy S21, name: Sample Test, os_version: 12.0, platformName: ANDROID}
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:143)
+at appium.AppiumLaunch.setup(AppiumLaunch.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [Project, app, build, deviceName, name, os_version]
+at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$4(NewSessionPayload.java:184)
+at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:540)
+at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:541)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:541)
+at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:188)
+at org.openqa.selenium.remote.NewSessionPayload.<init>(NewSessionPayload.java:91)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:127)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:111)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickOnPreference()[pri:0, instance:appium.AppiumLaunch@5a101b1c]" started-at="2023-11-10T10:39:09 CST" name="clickOnPreference" finished-at="2023-11-10T10:39:09 CST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-GO5J5M6', ip: '192.168.0.32'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {Project: API demo App automation, app: bs://f53d645f40081a14e4bea4..., appium:app: bs://f53d645f40081a14e4bea4..., browserVersion: null, bstack:options: {accessKey: JJPHDKxYzHu68nd6MVS7, browserVersion: null, browserstackSDK: testng-javaagent/1.11.10, buildIdentifier: #15, buildName: browserstack build Kae, consoleLogs: errors, debug: false, deviceName: Google Pixel 6 Pro, hostName: DESKTOP-GO5J5M6, local: true, localIdentifier: 10_Nov_1038_DESKTOP_GO5J5M6..., networkLogs: false, osVersion: 12.0, projectName: BrowserStack Samples Kae, source: testng:appium-sample-sdk:v1.1, userName: alvinkaecabato_Avn8dc}, build: ANDROID, deviceName: Samsung Galaxy S21, name: Sample Test, os_version: 12.0, platformName: ANDROID}]}]
+Capabilities {Project: API demo App automation, app: bs://f53d645f40081a14e4bea4..., appium:app: bs://f53d645f40081a14e4bea4..., browserVersion: null, bstack:options: {accessKey: JJPHDKxYzHu68nd6MVS7, browserVersion: null, browserstackSDK: testng-javaagent/1.11.10, buildIdentifier: #15, buildName: browserstack build Kae, consoleLogs: errors, debug: false, deviceName: Google Pixel 6 Pro, hostName: DESKTOP-GO5J5M6, local: true, localIdentifier: 10_Nov_1038_DESKTOP_GO5J5M6..., networkLogs: false, osVersion: 12.0, projectName: BrowserStack Samples Kae, source: testng:appium-sample-sdk:v1.1, userName: alvinkaecabato_Avn8dc}, build: ANDROID, deviceName: Samsung Galaxy S21, name: Sample Test, os_version: 12.0, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-GO5J5M6', ip: '192.168.0.32'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {Project: API demo App automation, app: bs://f53d645f40081a14e4bea4..., appium:app: bs://f53d645f40081a14e4bea4..., browserVersion: null, bstack:options: {accessKey: JJPHDKxYzHu68nd6MVS7, browserVersion: null, browserstackSDK: testng-javaagent/1.11.10, buildIdentifier: #15, buildName: browserstack build Kae, consoleLogs: errors, debug: false, deviceName: Google Pixel 6 Pro, hostName: DESKTOP-GO5J5M6, local: true, localIdentifier: 10_Nov_1038_DESKTOP_GO5J5M6..., networkLogs: false, osVersion: 12.0, projectName: BrowserStack Samples Kae, source: testng:appium-sample-sdk:v1.1, userName: alvinkaecabato_Avn8dc}, build: ANDROID, deviceName: Samsung Galaxy S21, name: Sample Test, os_version: 12.0, platformName: ANDROID}]}]
+Capabilities {Project: API demo App automation, app: bs://f53d645f40081a14e4bea4..., appium:app: bs://f53d645f40081a14e4bea4..., browserVersion: null, bstack:options: {accessKey: JJPHDKxYzHu68nd6MVS7, browserVersion: null, browserstackSDK: testng-javaagent/1.11.10, buildIdentifier: #15, buildName: browserstack build Kae, consoleLogs: errors, debug: false, deviceName: Google Pixel 6 Pro, hostName: DESKTOP-GO5J5M6, local: true, localIdentifier: 10_Nov_1038_DESKTOP_GO5J5M6..., networkLogs: false, osVersion: 12.0, projectName: BrowserStack Samples Kae, source: testng:appium-sample-sdk:v1.1, userName: alvinkaecabato_Avn8dc}, build: ANDROID, deviceName: Samsung Galaxy S21, name: Sample Test, os_version: 12.0, platformName: ANDROID}
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:143)
+at appium.AppiumLaunch.setup(AppiumLaunch.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [Project, app, build, deviceName, name, os_version]
+at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$4(NewSessionPayload.java:184)
+at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:540)
+at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:541)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:541)
+at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:188)
+at org.openqa.selenium.remote.NewSessionPayload.<init>(NewSessionPayload.java:91)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:127)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:111)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnPreference -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:appium.AppiumLaunch@5a101b1c]" started-at="2023-11-10T10:39:09 CST" name="quit" finished-at="2023-11-10T10:39:09 CST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- appium.AppiumLaunch -->
+    </test> <!-- FirstTest-2 -->
+    <test started-at="2023-11-10T10:39:05 CST" name="FirstTest-1" finished-at="2023-11-10T10:39:12 CST" duration-ms="7120">
+      <class name="appium.AppiumLaunch">
+        <test-method is-config="true" signature="setup()[pri:0, instance:appium.AppiumLaunch@aed0151]" started-at="2023-11-10T10:39:05 CST" name="setup" finished-at="2023-11-10T10:39:06 CST" duration-ms="764" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-GO5J5M6', ip: '192.168.0.32'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {Project: API demo App automation, app: bs://f53d645f40081a14e4bea4..., appium:app: bs://f53d645f40081a14e4bea4..., browserVersion: null, bstack:options: {accessKey: JJPHDKxYzHu68nd6MVS7, browserVersion: null, browserstackSDK: testng-javaagent/1.11.10, buildIdentifier: #15, buildName: browserstack build Kae, consoleLogs: errors, debug: false, deviceName: Samsung Galaxy S21, hostName: DESKTOP-GO5J5M6, local: true, localIdentifier: 10_Nov_1038_DESKTOP_GO5J5M6..., networkLogs: false, osVersion: 11.0, projectName: BrowserStack Samples Kae, source: testng:appium-sample-sdk:v1.1, userName: alvinkaecabato_Avn8dc}, build: ANDROID, deviceName: Samsung Galaxy S21, name: Sample Test, os_version: 12.0, platformName: ANDROID}]}]
+Capabilities {Project: API demo App automation, app: bs://f53d645f40081a14e4bea4..., appium:app: bs://f53d645f40081a14e4bea4..., browserVersion: null, bstack:options: {accessKey: JJPHDKxYzHu68nd6MVS7, browserVersion: null, browserstackSDK: testng-javaagent/1.11.10, buildIdentifier: #15, buildName: browserstack build Kae, consoleLogs: errors, debug: false, deviceName: Samsung Galaxy S21, hostName: DESKTOP-GO5J5M6, local: true, localIdentifier: 10_Nov_1038_DESKTOP_GO5J5M6..., networkLogs: false, osVersion: 11.0, projectName: BrowserStack Samples Kae, source: testng:appium-sample-sdk:v1.1, userName: alvinkaecabato_Avn8dc}, build: ANDROID, deviceName: Samsung Galaxy S21, name: Sample Test, os_version: 12.0, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-GO5J5M6', ip: '192.168.0.32'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {Project: API demo App automation, app: bs://f53d645f40081a14e4bea4..., appium:app: bs://f53d645f40081a14e4bea4..., browserVersion: null, bstack:options: {accessKey: JJPHDKxYzHu68nd6MVS7, browserVersion: null, browserstackSDK: testng-javaagent/1.11.10, buildIdentifier: #15, buildName: browserstack build Kae, consoleLogs: errors, debug: false, deviceName: Samsung Galaxy S21, hostName: DESKTOP-GO5J5M6, local: true, localIdentifier: 10_Nov_1038_DESKTOP_GO5J5M6..., networkLogs: false, osVersion: 11.0, projectName: BrowserStack Samples Kae, source: testng:appium-sample-sdk:v1.1, userName: alvinkaecabato_Avn8dc}, build: ANDROID, deviceName: Samsung Galaxy S21, name: Sample Test, os_version: 12.0, platformName: ANDROID}]}]
+Capabilities {Project: API demo App automation, app: bs://f53d645f40081a14e4bea4..., appium:app: bs://f53d645f40081a14e4bea4..., browserVersion: null, bstack:options: {accessKey: JJPHDKxYzHu68nd6MVS7, browserVersion: null, browserstackSDK: testng-javaagent/1.11.10, buildIdentifier: #15, buildName: browserstack build Kae, consoleLogs: errors, debug: false, deviceName: Samsung Galaxy S21, hostName: DESKTOP-GO5J5M6, local: true, localIdentifier: 10_Nov_1038_DESKTOP_GO5J5M6..., networkLogs: false, osVersion: 11.0, projectName: BrowserStack Samples Kae, source: testng:appium-sample-sdk:v1.1, userName: alvinkaecabato_Avn8dc}, build: ANDROID, deviceName: Samsung Galaxy S21, name: Sample Test, os_version: 12.0, platformName: ANDROID}
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:143)
+at appium.AppiumLaunch.setup(AppiumLaunch.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [Project, app, build, deviceName, name, os_version]
+at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$4(NewSessionPayload.java:184)
+at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:540)
+at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:541)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:541)
+at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:188)
+at org.openqa.selenium.remote.NewSessionPayload.<init>(NewSessionPayload.java:91)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:127)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:111)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickOnPreference()[pri:0, instance:appium.AppiumLaunch@aed0151]" started-at="2023-11-10T10:39:09 CST" name="clickOnPreference" finished-at="2023-11-10T10:39:09 CST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-GO5J5M6', ip: '192.168.0.32'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {Project: API demo App automation, app: bs://f53d645f40081a14e4bea4..., appium:app: bs://f53d645f40081a14e4bea4..., browserVersion: null, bstack:options: {accessKey: JJPHDKxYzHu68nd6MVS7, browserVersion: null, browserstackSDK: testng-javaagent/1.11.10, buildIdentifier: #15, buildName: browserstack build Kae, consoleLogs: errors, debug: false, deviceName: Samsung Galaxy S21, hostName: DESKTOP-GO5J5M6, local: true, localIdentifier: 10_Nov_1038_DESKTOP_GO5J5M6..., networkLogs: false, osVersion: 11.0, projectName: BrowserStack Samples Kae, source: testng:appium-sample-sdk:v1.1, userName: alvinkaecabato_Avn8dc}, build: ANDROID, deviceName: Samsung Galaxy S21, name: Sample Test, os_version: 12.0, platformName: ANDROID}]}]
+Capabilities {Project: API demo App automation, app: bs://f53d645f40081a14e4bea4..., appium:app: bs://f53d645f40081a14e4bea4..., browserVersion: null, bstack:options: {accessKey: JJPHDKxYzHu68nd6MVS7, browserVersion: null, browserstackSDK: testng-javaagent/1.11.10, buildIdentifier: #15, buildName: browserstack build Kae, consoleLogs: errors, debug: false, deviceName: Samsung Galaxy S21, hostName: DESKTOP-GO5J5M6, local: true, localIdentifier: 10_Nov_1038_DESKTOP_GO5J5M6..., networkLogs: false, osVersion: 11.0, projectName: BrowserStack Samples Kae, source: testng:appium-sample-sdk:v1.1, userName: alvinkaecabato_Avn8dc}, build: ANDROID, deviceName: Samsung Galaxy S21, name: Sample Test, os_version: 12.0, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-GO5J5M6', ip: '192.168.0.32'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {Project: API demo App automation, app: bs://f53d645f40081a14e4bea4..., appium:app: bs://f53d645f40081a14e4bea4..., browserVersion: null, bstack:options: {accessKey: JJPHDKxYzHu68nd6MVS7, browserVersion: null, browserstackSDK: testng-javaagent/1.11.10, buildIdentifier: #15, buildName: browserstack build Kae, consoleLogs: errors, debug: false, deviceName: Samsung Galaxy S21, hostName: DESKTOP-GO5J5M6, local: true, localIdentifier: 10_Nov_1038_DESKTOP_GO5J5M6..., networkLogs: false, osVersion: 11.0, projectName: BrowserStack Samples Kae, source: testng:appium-sample-sdk:v1.1, userName: alvinkaecabato_Avn8dc}, build: ANDROID, deviceName: Samsung Galaxy S21, name: Sample Test, os_version: 12.0, platformName: ANDROID}]}]
+Capabilities {Project: API demo App automation, app: bs://f53d645f40081a14e4bea4..., appium:app: bs://f53d645f40081a14e4bea4..., browserVersion: null, bstack:options: {accessKey: JJPHDKxYzHu68nd6MVS7, browserVersion: null, browserstackSDK: testng-javaagent/1.11.10, buildIdentifier: #15, buildName: browserstack build Kae, consoleLogs: errors, debug: false, deviceName: Samsung Galaxy S21, hostName: DESKTOP-GO5J5M6, local: true, localIdentifier: 10_Nov_1038_DESKTOP_GO5J5M6..., networkLogs: false, osVersion: 11.0, projectName: BrowserStack Samples Kae, source: testng:appium-sample-sdk:v1.1, userName: alvinkaecabato_Avn8dc}, build: ANDROID, deviceName: Samsung Galaxy S21, name: Sample Test, os_version: 12.0, platformName: ANDROID}
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:143)
+at appium.AppiumLaunch.setup(AppiumLaunch.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [Project, app, build, deviceName, name, os_version]
+at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$4(NewSessionPayload.java:184)
+at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:540)
+at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:541)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:541)
+at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:188)
+at org.openqa.selenium.remote.NewSessionPayload.<init>(NewSessionPayload.java:91)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:127)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:111)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnPreference -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:appium.AppiumLaunch@aed0151]" started-at="2023-11-10T10:39:09 CST" name="quit" finished-at="2023-11-10T10:39:09 CST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- appium.AppiumLaunch -->
+    </test> <!-- FirstTest-1 -->
   </suite> <!-- First -->
 </testng-results>

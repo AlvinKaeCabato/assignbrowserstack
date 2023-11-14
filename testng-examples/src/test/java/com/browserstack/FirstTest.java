@@ -14,7 +14,7 @@ import io.appium.java_client.AppiumBy;
 public class FirstTest extends AppiumTest {
 
     @Test
-    public void test() throws Exception {
+    public void navigateTest(){
     	mainAccessibilityA().click();
     	navigateBack();
     	mainViews().click();
@@ -38,8 +38,12 @@ public class FirstTest extends AppiumTest {
     	mainPreference().click();
     	navigateBack();
     	mainText().click();
-    	navigateBack();
-    		
+    	navigateBack();	
+    }
+    
+    @Test
+    public void testA() {
+    	
     }
 }
 

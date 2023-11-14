@@ -2,56 +2,56 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-09T15:17:20 CST" name="Default suite" finished-at="2023-11-09T15:18:01 CST" duration-ms="41493">
+  <suite started-at="2023-11-10T12:36:02 CST" name="Default suite" finished-at="2023-11-10T12:36:47 CST" duration-ms="45008">
     <groups>
     </groups>
-    <test started-at="2023-11-09T15:17:20 CST" name="Default test-2" finished-at="2023-11-09T15:17:44 CST" duration-ms="24227">
-      <class name="com.browserstack.FirstTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.FirstTest@794b435f]" started-at="2023-11-09T15:17:20 CST" name="setUp" finished-at="2023-11-09T15:17:40 CST" duration-ms="19547" status="PASS">
+    <test started-at="2023-11-10T12:36:02 CST" name="Default test-1" finished-at="2023-11-10T12:36:41 CST" duration-ms="39814">
+      <class name="appium.AppiumNewTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:appium.AppiumNewTest@21fff664]" started-at="2023-11-10T12:36:02 CST" name="setUp" finished-at="2023-11-10T12:36:22 CST" duration-ms="19893" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test()[pri:0, instance:com.browserstack.FirstTest@794b435f]" started-at="2023-11-09T15:17:40 CST" name="test" finished-at="2023-11-09T15:17:42 CST" duration-ms="2144" status="PASS">
+        <test-method signature="main()[pri:0, instance:appium.AppiumNewTest@21fff664]" started-at="2023-11-10T12:36:22 CST" name="main" finished-at="2023-11-10T12:36:39 CST" duration-ms="17318" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.FirstTest@794b435f]" started-at="2023-11-09T15:17:42 CST" name="tearDown" finished-at="2023-11-09T15:17:44 CST" duration-ms="2248" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.browserstack.FirstTest -->
-    </test> <!-- Default test-2 -->
-    <test started-at="2023-11-09T15:17:20 CST" name="Default test-0" finished-at="2023-11-09T15:17:51 CST" duration-ms="30801">
-      <class name="com.browserstack.FirstTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.FirstTest@5bdaf2ce]" started-at="2023-11-09T15:17:20 CST" name="setUp" finished-at="2023-11-09T15:17:46 CST" duration-ms="26331" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="test()[pri:0, instance:com.browserstack.FirstTest@5bdaf2ce]" started-at="2023-11-09T15:17:46 CST" name="test" finished-at="2023-11-09T15:17:48 CST" duration-ms="1796" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.FirstTest@5bdaf2ce]" started-at="2023-11-09T15:17:48 CST" name="tearDown" finished-at="2023-11-09T15:17:51 CST" duration-ms="2397" status="PASS">
+        </test-method> <!-- main -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:appium.AppiumNewTest@21fff664]" started-at="2023-11-10T12:36:39 CST" name="tearDown" finished-at="2023-11-10T12:36:41 CST" duration-ms="2074" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.browserstack.FirstTest -->
-    </test> <!-- Default test-0 -->
-    <test started-at="2023-11-09T15:17:20 CST" name="Default test-1" finished-at="2023-11-09T15:18:01 CST" duration-ms="41493">
-      <class name="com.browserstack.FirstTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.FirstTest@78dc4696]" started-at="2023-11-09T15:17:20 CST" name="setUp" finished-at="2023-11-09T15:17:56 CST" duration-ms="35707" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="test()[pri:0, instance:com.browserstack.FirstTest@78dc4696]" started-at="2023-11-09T15:17:56 CST" name="test" finished-at="2023-11-09T15:17:58 CST" duration-ms="1965" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.FirstTest@78dc4696]" started-at="2023-11-09T15:17:58 CST" name="tearDown" finished-at="2023-11-09T15:18:01 CST" duration-ms="3456" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.browserstack.FirstTest -->
+      </class> <!-- appium.AppiumNewTest -->
     </test> <!-- Default test-1 -->
+    <test started-at="2023-11-10T12:36:02 CST" name="Default test-0" finished-at="2023-11-10T12:36:44 CST" duration-ms="42722">
+      <class name="appium.AppiumNewTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:appium.AppiumNewTest@16fe9c29]" started-at="2023-11-10T12:36:02 CST" name="setUp" finished-at="2023-11-10T12:36:25 CST" duration-ms="23047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="main()[pri:0, instance:appium.AppiumNewTest@16fe9c29]" started-at="2023-11-10T12:36:25 CST" name="main" finished-at="2023-11-10T12:36:42 CST" duration-ms="17396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:appium.AppiumNewTest@16fe9c29]" started-at="2023-11-10T12:36:43 CST" name="tearDown" finished-at="2023-11-10T12:36:44 CST" duration-ms="1779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- appium.AppiumNewTest -->
+    </test> <!-- Default test-0 -->
+    <test started-at="2023-11-10T12:36:02 CST" name="Default test-2" finished-at="2023-11-10T12:36:47 CST" duration-ms="45008">
+      <class name="appium.AppiumNewTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:appium.AppiumNewTest@5486887b]" started-at="2023-11-10T12:36:02 CST" name="setUp" finished-at="2023-11-10T12:36:34 CST" duration-ms="32799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="main()[pri:0, instance:appium.AppiumNewTest@5486887b]" started-at="2023-11-10T12:36:34 CST" name="main" finished-at="2023-11-10T12:36:44 CST" duration-ms="9287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:appium.AppiumNewTest@5486887b]" started-at="2023-11-10T12:36:44 CST" name="tearDown" finished-at="2023-11-10T12:36:47 CST" duration-ms="2468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- appium.AppiumNewTest -->
+    </test> <!-- Default test-2 -->
   </suite> <!-- Default suite -->
 </testng-results>

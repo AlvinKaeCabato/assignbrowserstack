@@ -107,6 +107,7 @@
                 </plugins>
             </build>
         </profile>
+        <!--
         <profile>
             <id>sample-local-test</id>
             <build>
@@ -123,5 +124,6 @@
                 </plugins>
             </build>
         </profile>
+        -->
     </profiles>
 </project>

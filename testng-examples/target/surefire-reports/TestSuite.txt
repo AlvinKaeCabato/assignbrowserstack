@@ -1,4 +1,43 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 71.328 s - in TestSuite
+Tests run: 9, Failures: 3, Errors: 0, Skipped: 6, Time elapsed: 7.457 s <<< FAILURE! - in TestSuite
+setup(appium.AppiumLaunch)  Time elapsed: 1.047 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-GO5J5M6', ip: '192.168.0.32'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {Project: API demo App automation, app: bs://f53d645f40081a14e4bea4..., appium:app: bs://f53d645f40081a14e4bea4..., browserVersion: null, bstack:options: {accessKey: JJPHDKxYzHu68nd6MVS7, browserVersion: null, browserstackSDK: testng-javaagent/1.11.10, buildIdentifier: #15, buildName: browserstack build Kae, consoleLogs: errors, debug: false, deviceName: Samsung Galaxy S22 Ultra, hostName: DESKTOP-GO5J5M6, local: true, localIdentifier: 10_Nov_1038_DESKTOP_GO5J5M6..., networkLogs: false, osVersion: 12.0, projectName: BrowserStack Samples Kae, source: testng:appium-sample-sdk:v1.1, userName: alvinkaecabato_Avn8dc}, build: ANDROID, deviceName: Samsung Galaxy S21, name: Sample Test, os_version: 12.0, platformName: ANDROID}]}]
+Capabilities {Project: API demo App automation, app: bs://f53d645f40081a14e4bea4..., appium:app: bs://f53d645f40081a14e4bea4..., browserVersion: null, bstack:options: {accessKey: JJPHDKxYzHu68nd6MVS7, browserVersion: null, browserstackSDK: testng-javaagent/1.11.10, buildIdentifier: #15, buildName: browserstack build Kae, consoleLogs: errors, debug: false, deviceName: Samsung Galaxy S22 Ultra, hostName: DESKTOP-GO5J5M6, local: true, localIdentifier: 10_Nov_1038_DESKTOP_GO5J5M6..., networkLogs: false, osVersion: 12.0, projectName: BrowserStack Samples Kae, source: testng:appium-sample-sdk:v1.1, userName: alvinkaecabato_Avn8dc}, build: ANDROID, deviceName: Samsung Galaxy S21, name: Sample Test, os_version: 12.0, platformName: ANDROID}
+	at appium.AppiumLaunch.setup(AppiumLaunch.java:45)
+Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [Project, app, build, deviceName, name, os_version]
+	at appium.AppiumLaunch.setup(AppiumLaunch.java:45)
+
+setup(appium.AppiumLaunch)  Time elapsed: 2.737 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-GO5J5M6', ip: '192.168.0.32'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {Project: API demo App automation, app: bs://f53d645f40081a14e4bea4..., appium:app: bs://f53d645f40081a14e4bea4..., browserVersion: null, bstack:options: {accessKey: JJPHDKxYzHu68nd6MVS7, browserVersion: null, browserstackSDK: testng-javaagent/1.11.10, buildIdentifier: #15, buildName: browserstack build Kae, consoleLogs: errors, debug: false, deviceName: Google Pixel 6 Pro, hostName: DESKTOP-GO5J5M6, local: true, localIdentifier: 10_Nov_1038_DESKTOP_GO5J5M6..., networkLogs: false, osVersion: 12.0, projectName: BrowserStack Samples Kae, source: testng:appium-sample-sdk:v1.1, userName: alvinkaecabato_Avn8dc}, build: ANDROID, deviceName: Samsung Galaxy S21, name: Sample Test, os_version: 12.0, platformName: ANDROID}]}]
+Capabilities {Project: API demo App automation, app: bs://f53d645f40081a14e4bea4..., appium:app: bs://f53d645f40081a14e4bea4..., browserVersion: null, bstack:options: {accessKey: JJPHDKxYzHu68nd6MVS7, browserVersion: null, browserstackSDK: testng-javaagent/1.11.10, buildIdentifier: #15, buildName: browserstack build Kae, consoleLogs: errors, debug: false, deviceName: Google Pixel 6 Pro, hostName: DESKTOP-GO5J5M6, local: true, localIdentifier: 10_Nov_1038_DESKTOP_GO5J5M6..., networkLogs: false, osVersion: 12.0, projectName: BrowserStack Samples Kae, source: testng:appium-sample-sdk:v1.1, userName: alvinkaecabato_Avn8dc}, build: ANDROID, deviceName: Samsung Galaxy S21, name: Sample Test, os_version: 12.0, platformName: ANDROID}
+	at appium.AppiumLaunch.setup(AppiumLaunch.java:45)
+Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [Project, app, build, deviceName, name, os_version]
+	at appium.AppiumLaunch.setup(AppiumLaunch.java:45)
+
+setup(appium.AppiumLaunch)  Time elapsed: 2.737 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-GO5J5M6', ip: '192.168.0.32'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {Project: API demo App automation, app: bs://f53d645f40081a14e4bea4..., appium:app: bs://f53d645f40081a14e4bea4..., browserVersion: null, bstack:options: {accessKey: JJPHDKxYzHu68nd6MVS7, browserVersion: null, browserstackSDK: testng-javaagent/1.11.10, buildIdentifier: #15, buildName: browserstack build Kae, consoleLogs: errors, debug: false, deviceName: Samsung Galaxy S21, hostName: DESKTOP-GO5J5M6, local: true, localIdentifier: 10_Nov_1038_DESKTOP_GO5J5M6..., networkLogs: false, osVersion: 11.0, projectName: BrowserStack Samples Kae, source: testng:appium-sample-sdk:v1.1, userName: alvinkaecabato_Avn8dc}, build: ANDROID, deviceName: Samsung Galaxy S21, name: Sample Test, os_version: 12.0, platformName: ANDROID}]}]
+Capabilities {Project: API demo App automation, app: bs://f53d645f40081a14e4bea4..., appium:app: bs://f53d645f40081a14e4bea4..., browserVersion: null, bstack:options: {accessKey: JJPHDKxYzHu68nd6MVS7, browserVersion: null, browserstackSDK: testng-javaagent/1.11.10, buildIdentifier: #15, buildName: browserstack build Kae, consoleLogs: errors, debug: false, deviceName: Samsung Galaxy S21, hostName: DESKTOP-GO5J5M6, local: true, localIdentifier: 10_Nov_1038_DESKTOP_GO5J5M6..., networkLogs: false, osVersion: 11.0, projectName: BrowserStack Samples Kae, source: testng:appium-sample-sdk:v1.1, userName: alvinkaecabato_Avn8dc}, build: ANDROID, deviceName: Samsung Galaxy S21, name: Sample Test, os_version: 12.0, platformName: ANDROID}
+	at appium.AppiumLaunch.setup(AppiumLaunch.java:45)
+Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [Project, app, build, deviceName, name, os_version]
+	at appium.AppiumLaunch.setup(AppiumLaunch.java:45)
+
